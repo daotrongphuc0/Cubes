@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abidanang/NumberMerge.git"
+    "url": "git+https://github.com/daotrongphuc0/Cubes.git"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
@@ -21,7 +21,7 @@
     "esbuild-loader": "^3.0.1",
     "html-webpack-plugin": "^5.5.1"
   },
-  "name": "NumberMerge",
+  "name": "Cubes",
   "version": "1.0.0",
   "main": "game.js",
   "scripts": {
@@ -30,10 +30,9 @@
     "host": "webpack serve --env env=host --open",
     "build": "webpack --env env=preview",
     "clean-gh-pages-cached": "node node_modules/gh-pages/bin/gh-pages-clean",
-    "deploy": "gh-pages -d dist",
-    "preview-upload": "webpack --env env=preview && aws s3 cp preview s3://abidn.space/NumberMerge --recursive --cache-control max-age=120 --acl public-read"
-  },
-  "author": "ABI game studio",
+    "deploy": "gh-pages -d dist"
+    },
+  "author": "DNBK3",
   "license": "ISC",
   "description": ""
 }

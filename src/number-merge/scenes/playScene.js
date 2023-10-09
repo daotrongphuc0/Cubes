@@ -32,8 +32,6 @@ import { RedDamageControllerEvent } from "../scripts/controllers/redDamageContro
 import { BlockAreaManager } from "../objects/blockArea/blockAreaManager";
 import { UserData } from "../data/userData";
 import { DataLocal } from "../data/dataLocal";
-import { AdsManager } from "../ads/adsManager";
-import { Time } from "../../template/systems/time/time";
 
 export const PlaySceneEvent = Object.freeze({
   LevelLoaded: "levelLoaded",
